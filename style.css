@@ -1,19 +1,45 @@
-#intro{background-image: url("./images/approve.gif");
-	   background-size: 1600px 900px;
-	   }
-#about{background-image: url("./images/img.jpg");
-	   }
-#services{background-image: url("./images/banana.jpg");
-	   }
-
-#wip{color:yellow;
-}
-#introfont1{
-	font-size: 40px;
-font-family: "Times New Roman", Times, serif;
-}
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 344be8c79beb3cad65bb0772aecefc360baed584
+/*about*/
+header{
+	background-image:url(./images/approve.gif);
+	background-repeat:none;
+	background-attachment:scroll;
+	background-position:center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;-o-background-size:cover;
+	text-align:center;
+	color:#fff}
+header .intro-text{
+	padding-top:100px;
+	padding-bottom:50px
+	}
+header .intro-text .intro-head{
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:75px;
+	line-height:22px;
+	margin-bottom:25px
+	}
+header .intro-text .intro-head2{
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:30px;
+	line-height:50px;
+	margin-bottom:25px}
+header .intro-text{
+	padding-top:450px;padding-bottom:200px
+	}
+	
+/*about*/
+section h2.section-heading{
+	background-image:url(./images/oh.jpg);
+	font-size:40px;margin-top:0;
+	margin-bottom:15px
+	padding-top:450px;padding-bottom:200px
+	}
+section h3.section-subheading{
+	font-size:16px;
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform:none;
+	font-style:italic;
+	font-weight:400;
+	margin-bottom:75px}
+	@media (min-width:768px){section{padding:150px 0}}
