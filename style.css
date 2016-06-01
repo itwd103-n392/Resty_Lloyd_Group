@@ -1,10 +1,15 @@
-#intro{background-image: url("oh.jpg");
+#intro{background-image: url("./images/approve.gif");
+	   background-size: 1600px 900px;
 	   }
-#about{background-image: url("img.jpg");
+#about{background-image: url("./images/img.jpg");
 	   }
-#services{background-image: url("banana.jpg");
+#services{background-image: url("./images/banana.jpg");
 	   }
-#pinis{color:white;
-}
+
 #wip{color:yellow;
 }
+#introfont1{
+	font-size: 40px;
+font-family: "Times New Roman", Times, serif;
+}
+
